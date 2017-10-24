@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		93EE4C201F9FA3890012A98B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE4C1F1F9FA3890012A98B /* AppDelegate.swift */; };
-		93EE4C221F9FA3890012A98B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE4C211F9FA3890012A98B /* ViewController.swift */; };
-		93EE4C251F9FA3890012A98B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93EE4C231F9FA3890012A98B /* Main.storyboard */; };
 		93EE4C271F9FA3890012A98B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93EE4C261F9FA3890012A98B /* Assets.xcassets */; };
 		93EE4C2A1F9FA3890012A98B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93EE4C281F9FA3890012A98B /* LaunchScreen.storyboard */; };
+		93EE4C361F9FAFE30012A98B /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 93EE4C331F9FAFE20012A98B /* GoogLeNetPlaces.mlmodel */; };
+		93EE4C371F9FAFE30012A98B /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 93EE4C341F9FAFE30012A98B /* MobileNet.mlmodel */; };
+		93EE4C381F9FAFE30012A98B /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 93EE4C351F9FAFE30012A98B /* SqueezeNet.mlmodel */; };
+		93EE4C3A1F9FAFF10012A98B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93EE4C391F9FAFF10012A98B /* Main.storyboard */; };
+		93EE4C3C1F9FB0650012A98B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE4C3B1F9FB0650012A98B /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		93EE4C1C1F9FA3890012A98B /* ML Recognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ML Recognizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93EE4C1F1F9FA3890012A98B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93EE4C211F9FA3890012A98B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		93EE4C241F9FA3890012A98B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93EE4C261F9FA3890012A98B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93EE4C291F9FA3890012A98B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93EE4C2B1F9FA3890012A98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93EE4C331F9FAFE20012A98B /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
+		93EE4C341F9FAFE30012A98B /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		93EE4C351F9FAFE30012A98B /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		93EE4C391F9FAFF10012A98B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		93EE4C3B1F9FB0650012A98B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				93EE4C1F1F9FA3890012A98B /* AppDelegate.swift */,
-				93EE4C211F9FA3890012A98B /* ViewController.swift */,
-				93EE4C231F9FA3890012A98B /* Main.storyboard */,
+				93EE4C3B1F9FB0650012A98B /* ViewController.swift */,
+				93EE4C331F9FAFE20012A98B /* GoogLeNetPlaces.mlmodel */,
+				93EE4C341F9FAFE30012A98B /* MobileNet.mlmodel */,
+				93EE4C351F9FAFE30012A98B /* SqueezeNet.mlmodel */,
+				93EE4C391F9FAFF10012A98B /* Main.storyboard */,
 				93EE4C261F9FA3890012A98B /* Assets.xcassets */,
 				93EE4C281F9FA3890012A98B /* LaunchScreen.storyboard */,
 				93EE4C2B1F9FA3890012A98B /* Info.plist */,
@@ -125,7 +134,7 @@
 			files = (
 				93EE4C2A1F9FA3890012A98B /* LaunchScreen.storyboard in Resources */,
 				93EE4C271F9FA3890012A98B /* Assets.xcassets in Resources */,
-				93EE4C251F9FA3890012A98B /* Main.storyboard in Resources */,
+				93EE4C3A1F9FAFF10012A98B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +145,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93EE4C221F9FA3890012A98B /* ViewController.swift in Sources */,
+				93EE4C3C1F9FB0650012A98B /* ViewController.swift in Sources */,
+				93EE4C371F9FAFE30012A98B /* MobileNet.mlmodel in Sources */,
+				93EE4C381F9FAFE30012A98B /* SqueezeNet.mlmodel in Sources */,
 				93EE4C201F9FA3890012A98B /* AppDelegate.swift in Sources */,
+				93EE4C361F9FAFE30012A98B /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		93EE4C231F9FA3890012A98B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				93EE4C241F9FA3890012A98B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		93EE4C281F9FA3890012A98B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
